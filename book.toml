@@ -1,6 +1,0 @@
-[book]
-authors = ["Matthew J Perez"]
-language = "en"
-multilingual = false
-src = "src"
-title = "Numbers in Rust"
