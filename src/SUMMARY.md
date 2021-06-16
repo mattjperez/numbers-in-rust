@@ -1,13 +1,12 @@
 # Summary
 
 - [Intro](./intro.md)
-- [Number Representation]()
+- [Number Representation](./num_representation/intro.md)
   - [Unsigned Integers](./num_representation/unsigned_integers.md)
   - [Signed Integers](./num_representation/signed_integers.md)
   - [Floats](./num_representation/floats.md)
   - [Endianness](./num_representation/endianness.md)
   - [`isize` and `usize`](./isize-and-usize.md)
-- [Constants](./constants.md)
 - [Conversion]()
   - [`From`](./conversion/from.md)
   - [`As`](./conversion/as.md)
@@ -24,3 +23,4 @@
   - [NOT (`!`)](./bitwise/not.md)
   - [L-Shift (`<<`)](./bitwise/left-shift.md)
   - [R-Shift (`>>`)](./bitwise/right-shift.md)
+- [Constants](./constants.md)
