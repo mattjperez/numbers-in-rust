@@ -18,3 +18,6 @@ It forces you to think more deeply about the bounds of the operations you'll be 
 From a holistic view, this makes your logic more robust and better aligned with the *spirit* of Rust.
 
 Basically, stick to explicit integer types as much as possible and be wary when using machine-dependent integers outside of the narrow scope above.
+
+Originally called `int/uint`, but was one of the early RFCs.
+https://github.com/rust-lang/rfcs/blob/master/text/0544-rename-int-uint.md
