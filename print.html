@@ -15,7 +15,7 @@
 
 
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="">
+        <meta name="description" content="Learn the foundations of numbers as implemented in Rust">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
 
@@ -137,6 +137,10 @@
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
                         
+                        
+                        <a href="https://github.com/mattjperez/numbers-in-rust/tree/main" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
                         
                         
 
@@ -400,11 +404,14 @@ their usage tends to gravitate around two things:</p>
 It forces you to think more deeply about the bounds of the operations you'll be performing, and in doing so, make it easier to select the most appropriate type for the situation. 
 From a holistic view, this makes your logic more robust and better aligned with the <em>spirit</em> of Rust.</p>
 <p>Basically, stick to explicit integer types as much as possible and be wary when using machine-dependent integers outside of the narrow scope above.</p>
+<p>Originally called <code>int/uint</code>, but was one of the early RFCs.
+https://github.com/rust-lang/rfcs/blob/master/text/0544-rename-int-uint.md</p>
 <div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="operators"><a class="header" href="#operators">Operators</a></h1>
 <p>Operators are made available to different types and structures via certain traits (<code>Add</code>, <code>Sub</code>, <code>Rem</code>, etc).
 However, these traits (and therefore operators) have different implementations depending on the type.
 These implementations may have general norms and exceptions depending on the type and the operation. 
 This section will help you determine if you can use a regular operator for an operation or if you should use an overflow-specific method.</p>
+<p>https://github.com/rust-lang/rfcs/pull/560</p>
 <div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="add-"><a class="header" href="#add-">Add (+)</a></h1>
 <div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="sub--"><a class="header" href="#sub--">Sub (-)</a></h1>
 <div id="chapter_begin" style="break-before: page; page-break-before: always;"></div><h1 id="mul-"><a class="header" href="#mul-">Mul (*)</a></h1>
@@ -567,6 +574,10 @@ For example, <a href="https://doc.rust-lang.org/std/i128/index.html"><code>std::
         
 
         
+        <script type="text/javascript">
+            window.playground_line_numbers = true;
+        </script>
+        
 
         
         <script type="text/javascript">
@@ -574,6 +585,12 @@ For example, <a href="https://doc.rust-lang.org/std/i128/index.html"><code>std::
         </script>
         
 
+        
+        <script src="ace.js" type="text/javascript" charset="utf-8"></script>
+        <script src="editor.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mode-rust.js" type="text/javascript" charset="utf-8"></script>
+        <script src="theme-dawn.js" type="text/javascript" charset="utf-8"></script>
+        <script src="theme-tomorrow_night.js" type="text/javascript" charset="utf-8"></script>
         
 
         
